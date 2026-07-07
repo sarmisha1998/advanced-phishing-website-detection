@@ -12,10 +12,6 @@ __pycache__/
 models/
 *.pkl
 
-# Data
-data/
-!data/README.md
-
 # IDE
 .vscode/
 .idea/
