@@ -1,26 +1,45 @@
-# Virtual Environment
-venv/
-
-# Python cache
+# ============================
+# Python
+# ============================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
-# Jupyter
+# ============================
+# Virtual Environment
+# ============================
+venv/
+.env
+
+# ============================
+# Jupyter Notebook
+# ============================
 .ipynb_checkpoints/
-*.tmp
-*.bak
 
-# Model files
-models/
-*.pkl
-
-# IDE
+# ============================
+# VS Code
+# ============================
 .vscode/
-.idea/
 
-# OS
-.DS_Store
-Thumbs.db
+# ============================
+# Streamlit
+# ============================
+.streamlit/
 
+# ============================
+# Pytest Cache
+# ============================
+.pytest_cache/
+
+# ============================
 # Logs
-*.log 
+# ============================
+*.log
+
+# ============================
+# Operating System Files
+# ============================
+Thumbs.db
+.DS_Store
+desktop.ini
